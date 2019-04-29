@@ -4,6 +4,7 @@ import { AlertComponent } from './components/alert/alert.component';
 
 @NgModule({
   declarations: [AlertComponent],
+  exports: [AlertComponent],
   imports: [
     // sostituto di BrowserModule. Fornisce accesso a direttive ngIf, ngClass
     CommonModule
